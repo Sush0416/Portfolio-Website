@@ -9,7 +9,7 @@ A modern, responsive portfolio website built with Next.js, React, and Tailwind C
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: (https://portfolio-website-ivap.vercel.app/)
+Visit the live portfolio: (https://sush-sprinkles-892a98.netlify.app/)
 
 ## ✨ Features
 
