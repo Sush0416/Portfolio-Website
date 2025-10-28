@@ -83,7 +83,7 @@ export default function Profile() {
                 View Projects
               </a>
               <a 
-                href="/resume.pdf" 
+                href="/SushmitaKatariyaResume.pdf" 
                 className="flex items-center gap-2 border border-purple-600 text-purple-400 px-6 py-3 rounded-full font-semibold hover:bg-purple-600 hover:text-white transition-all"
                 download
               >

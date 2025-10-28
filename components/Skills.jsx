@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const skills = {
   "Salesforce": ["Apex", "Lightning Web Components", "SOQL", "Salesforce CRM", "Flow", "Aura"],
-  "Programming": ["Python", "C++", "Java", "JavaScript", "TypeScript"],
+  "Programming": ["C++", "Java", "JavaScript", "TypeScript"],
   "AI/ML & Data": ["Pandas", "NumPy", "OpenCV", "TensorFlow", "Scikit-learn"],
   "Web Development": ["MERN Stack", "React", "Node.js", "REST APIs", "Stripe Integration"],
   "Databases": ["MySQL", "Oracle DBMS", "MongoDB", "Salesforce Objects"],

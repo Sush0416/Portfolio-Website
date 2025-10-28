@@ -16,9 +16,9 @@ const projects = [
     description: "MERN-based food ordering & tiffin service platform with dish-based search, Stripe payments, and user management. Admin panel functional; deployment pending.",
     technologies: ["MERN", "Payments", "FoodTech"],
     github: "https://github.com/Sush0416",
-    demo: "#",
+    demo: "https://drive.google.com/file/d/1o9NWKg8SU32Ucmy0dGgtsc6pcGY2p9o9/view?usp=sharing",
     image: "/Delish.jpg", // Food
-    status: "Prototype"
+    status: "Completed"
   },
   {
     title: "Salesforce PropertyHub",
