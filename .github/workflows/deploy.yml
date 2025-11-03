@@ -20,15 +20,14 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-          
+
       - run: npm ci
-      - run: npm run build
-      - run: npm run export
-      
+      - run: npm run build  # ✅ no need for 'npm run export'
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3   # ⬅️ updated from v1 to v3
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out  # ✅ Next.js static export folder
 
   deploy:
     environment:
@@ -39,4 +38,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4            # ⬅️ updated from v1 to v4
+        uses: actions/deploy-pages@v4
